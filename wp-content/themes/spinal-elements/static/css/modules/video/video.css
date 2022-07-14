@@ -1,0 +1,136 @@
+.video-module {
+    padding-top: 40px;
+    padding-bottom: 70px;
+}
+.video-module .heading2{
+	padding-bottom: 7px;
+    margin-bottom: 0;
+}
+.video-module .addunderline{
+    padding-bottom: 26px !important;
+    margin-bottom: 25px !important;
+}
+.video .content{
+    max-width: 665px;
+    margin: 0 auto;
+}
+.video-module-inner iframe {
+    width: 100%;
+    max-width: 1240px;
+    margin: 0 auto;
+    height: 688px;
+    border-radius: 20px;
+}
+.video-block {
+    margin-top: 35px;
+    position: relative;
+}
+.icon-video {
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    margin: auto;
+    width: 196px;
+    height: 196px;
+    background: rgba(43, 46, 52, 0.90);
+    border-radius: 100%;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+.video-module-inner,
+.btn-video {
+    text-align: center;
+}
+.btn-videocheck {
+    min-width: 220px;
+}
+.btn-video {
+    margin-top: 30px;
+}
+#pause-button {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: 0;
+    margin: auto;
+    max-width: 55px;
+}
+img#play-button {
+    max-width: 100px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.video-module-inner {
+    border-radius: 20px;
+}
+
+/*Carreeer video*/
+.video-heading-dark .heading2 {
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 42px;
+    margin-bottom: 21px;
+    padding: 0;
+}
+.video-careerpg {
+    padding-top: 182px;
+}
+
+/*Media query*/
+@media (min-width: 1025px) and (max-width: 1380px){
+    .icon-video {
+        width: 120px !important ;
+        height: 120px !important;
+    }
+    img#play-button{
+        max-width: 45px !important;
+    }
+    #pause-button{
+        max-width: 30px !important;
+    }
+}
+@media (min-width:  992px) and (max-width: 1299px){
+    .video-module-inner iframe{
+        height: 540px;
+    }
+}
+
+@media (max-width: 1199px){
+    .icon-video{
+        width: 60px;
+        height: 60px;
+    }
+    img#play-button{
+        max-width: 22px;
+    }
+    #pause-button{
+        max-width: 15px;
+    }
+}
+@media (max-width: 991px){
+    .video-module-inner iframe{
+        height: 500px !important;
+    }
+}
+@media (max-width: 767px){
+    .video-module {
+        padding-top: 40px;
+        padding-bottom: 20px;
+    }
+    .video-module br{
+        display: none;
+    }
+    .video-module .heading2{
+        padding-bottom: 7px !important;
+        margin-bottom: 0 !important;
+    }
+    .video-module-inner iframe {
+        height: auto !important;
+    }
+}

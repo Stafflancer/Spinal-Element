@@ -1,0 +1,242 @@
+.hero_banner_centered  .heading2{
+	margin-bottom: 0 !important;
+}
+.hero_banner_centered .breadcrumbs ul{
+	text-align: center;
+	margin: 0 0 40px;
+}
+.hero_banner_centered .breadcrumbs ul li, 
+.hero_banner_centered .breadcrumbs ul li a{
+	color: #202020;
+}
+.hero_banner_centered .breadcrumbs .separator{
+	background: #202020;
+}
+.hero_banner_centered .breadcrumbs .addunderline:before {
+    margin: 0 auto;
+}
+.hero_banner_centered .content{
+    max-width: 980px;
+    margin: 0 auto;
+}
+.hero_banner_centered .content p {
+    font-size: 20px;
+    line-height: 30px;
+    margin-bottom: 0;
+}
+
+/*Contact HERO bANNER*/
+.AktivGrotesk-Regular .content p {
+    font-family: 'AktivGrotesk-Regular';
+    font-size: 22px;
+    line-height: 32px;
+}
+.herobanner-contact h2 {
+    padding-bottom: 25px;
+}
+
+/*Newsroom hero banner*/
+.newsroom-hero-banner .grivity-form {
+    max-width: 900px;
+    margin: 0 auto;
+}
+.newsroom-hero-banner  .gform_confirmation_message{
+    padding-top: 50px;
+}
+.newsroom-hero-banner {
+    background: url(https://dev-spinal-elements.pantheonsite.io/wp-content/uploads/2022/05/iStock-1310953677.png);
+    background-size: cover;
+    background-position: top center;
+    margin-top: 0 !important;
+    padding-top: 245px;
+    padding-bottom: 168px;
+}
+.newsroom-hero-banner form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    max-width: 453px;
+    margin: 62px auto 0;
+}
+.newsroom-hero-banner form .gform_footer {
+    margin: 0 !important;
+    padding: 0 !important;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+.newsroom-hero-banner form .gform_body {
+    width: 100%;
+}
+.newsroom-hero-banner form .gform_footer input {
+    text-transform: capitalize;
+    font-size: 16px !important;
+    line-height: 24px !important;
+    letter-spacing: 0.20px;
+    font-weight: 700 !important;
+    background-color: #9B001F !important;
+    border: 2px solid #9B001F !important;
+    border-radius: 30px !important;
+    color: #fff !important;
+    display: inline-block;
+    padding: 8.5px;
+    min-width: 168px;
+    margin-bottom: 0 !important;
+    transition: all 0.3s ease-in-out;
+}
+.newsroom-hero-banner form .gform_footer input:hover{
+	background-color: #fff !important;
+    color: #9B001F !important;
+}
+.newsroom-hero-banner form .gform_body input {
+    height: 45px;
+    border: 0;
+    border-radius: 50px;
+    padding: 0 175px 0px 16px !important;
+    font-size: 16px !important;
+}
+
+/*Product page*/
+.hide-breadcrumb .breadcrumbs {
+    display: none;
+}
+.productpg-des h2.heading2 {
+    padding-bottom: 25px;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 32px;
+    margin-bottom: 30px !important;
+    display: block;
+}
+.productpg-des {
+    padding-top: 150px;
+    padding-bottom: 60px;
+    margin-top: 0 !important;
+}
+.productpg-des .content p{
+    margin-bottom: 0 !important;
+}
+
+/*Procedural solution*/
+.procedural-solutions-center .heading2 {
+    max-width: 1181px;
+    margin: 0 auto;
+    line-height: 56px;
+    padding-bottom: 55px;
+}
+.procedural-solutions-center {
+    background: url(https://dev-spinal-elements.pantheonsite.io/wp-content/uploads/2022/05/iStock-1310953677.png);
+    background-size: cover;
+    background-position: top center;
+    margin-top: 0 !important;
+    padding-top: 149px;
+    padding-bottom: 121px;
+}
+
+/*Procedural page inners*/
+.procedural-solutions-pginner {
+    margin-top: 0;
+    padding-top: 247px;
+    padding-bottom: 67px;
+}
+.procedural-solutions-pginner .content p{
+    margin-bottom: 0 ;
+}
+
+/*Distributor Portal*/
+.distributor-portal-banner {
+    margin-top: 0;
+    padding-top: 247px;
+    padding-bottom: 56px;
+}
+
+
+/*Contact Page*/
+.herobanner-contact {
+    padding-top: 236px;
+}
+
+/*carvical inner*/
+.cervical-inner .breadcrumbs ul {
+    margin-bottom: 12px;
+}
+.cervical-inner .breadcrumbs ul li {
+    padding-bottom: 12px;
+}
+.cervical-inner .heading2 {
+    color: #9b001f;
+    margin-bottom: 55px !important;
+    padding-bottom: 0;
+}
+.cervical-inner .content p:first-child {
+    font-size: 32px;
+    line-height: 30px;
+    margin-bottom: 11px;
+}
+.cervical-inner .content p:last-child {
+    font-size: 22px;
+    font-style: italic;
+    color: #54565A;
+}
+
+/*Media Query*/
+@media (min-width: 320px) and (max-width: 1380px){
+    .AktivGrotesk-Regular .content p{
+        font-size: 16px !important;
+        line-height: 24px !important;
+    }
+
+    /*newsroom Banner*/
+    .newsroom-hero-banner, .distributor-portal-banner{
+        padding-top: 100px !important;
+    }
+}
+/*Leptop screens*/
+@media (min-width: 1025px) and (max-width: 1380px){
+    .hero_banner_centered .breadcrumbs ul{
+        margin: 0 0 20px !important;
+    }
+    .herobanner-contact h2 {
+        padding-bottom: 12px !important; 
+    }
+    .heading2{
+        font-size: 35px !important;
+        line-height: 40px !important;
+    }
+    .procedural-solutions-center .heading2 {
+        font-size: 22px !important;
+        line-height: 34px !important;
+    }
+    .herobanner-contact , .distributor-portal-banner{
+        padding-top: 130px !important;
+    }
+
+    
+}
+@media (max-width: 1024px){
+    .procedural-solutions-center .heading2{
+        font-size: 20px !important;
+    }
+    .herobanner-contact, .distributor-portal-banner{
+        padding-top: 80px !important;
+    }
+}
+@media (max-width: 991px){
+	.hero_banner_centered p br{
+		display: none;
+	}
+	.hero_banner_centered .breadcrumbs ul{
+	    margin: 0 0 20px;
+	}
+    .productpg-des h2.heading2{
+        margin-bottom: 15px !important;
+    }
+    
+}
+
+@media (max-width: 575px){
+    .procedural-solutions-center .heading2{
+        font-size: 16px !important;
+    }
+}

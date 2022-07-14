@@ -1,0 +1,199 @@
+/*hero-banner-home*/
+.video-background:before,
+.image-as-background:before {
+    position: absolute;
+    content: '';
+    display: block;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+}
+.home-page-banner:before{
+    background: rgba(32, 32, 32, 0.50);
+}
+.inner-page-banner.image-as-background:before{
+    background: rgba(32, 32, 32, 0.32) !important;
+    position: absolute;
+    content: '';
+    display: block;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+}
+.video-background {
+    position: relative;
+    margin: 0 !important;
+    line-height: 0;
+}
+#hero-banner-video {
+    width: 100%;
+}
+#hero-banner {
+    position: relative;
+}
+.hero_banner_home .hero-background-inner {
+    transform: translateY(-50%);
+    position: absolute;
+    top: 50%;
+    z-index: 9;
+    bottom: 0;
+    margin: auto 0;
+    left: 0;
+}
+.btn-about .btn {
+    min-width: 177px;
+}
+.heading-1 {
+    font-size: 46px;
+    line-height: 58px;
+    font-weight: 400;
+    margin-bottom: 16px;
+}
+.hero-banner-content,
+.hero-banner-content p {
+    font-size: 22px;
+    line-height: 32px;
+    margin-bottom: 53px;
+}
+.hero-banner-content p{
+    margin-bottom: 0;
+    font-weight: 300;
+}
+.hero_content-inner {
+    max-width: 813px;
+}
+.hero-background-positinate {
+    left: 0;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    padding-right: var(--bs-gutter-x,.75rem);
+    padding-left: var(--bs-gutter-x,.75rem);
+    width: 100%;
+}
+
+/*Career page homebanner*/
+.career-home-banner .btn-about .btn {
+    min-width: 251px;
+}
+.career-home-banner .btn-about {
+    margin-top: 39px;
+}
+.career-home-banner h1 {
+    margin-bottom: 15px;
+}
+.career-home-banner {
+    padding-bottom: 159px !important;
+}
+
+/*Pateint Resources*/
+.pateint-resources::before {
+    background: linear-gradient(-45deg, rgba(112, 112, 112, 0.15), #383838) !important;
+    mix-blend-mode: multiply;
+}
+.pateint-resources .btn-about {
+    margin-top: 34px;
+}
+.pateint-resources {
+    padding: 162px 0 160px !important;
+}
+
+/*PROCEDURAL BANNER*/
+.procedural-sol-banner {
+    padding: 240px 0 231px !important;
+}
+.banner-50.image-as-background:before {
+    background: rgba(32, 32, 32, 0.50) !important;
+}
+
+/*Product page*/
+.product-banner{
+    padding: 263px 0 239px !important;
+}
+
+/*Education > Surgeons & HCPs*/
+.surgeons-hcps .btn-about {
+    margin-top: 47px;
+}
+.surgeons-hcps {
+    margin-bottom: 102px;
+}
+
+
+/*Media Query*/
+@media (min-width: 1025px) and (max-width: 1380px){
+    .heading-1{
+        font-size: 40px;
+        line-height: 50px;
+    }
+    #hero-banner-video {
+        height: 700px;
+        object-fit: cover;
+    }
+    .home-page-body #hero-banner{
+        padding: 0 !important;
+    }
+    #hero-banner{
+        padding: 45px 0px !important;
+    }
+    .inner-page-banner{
+        margin-top: 75px !important;
+    }
+    .surgeons-hcps {
+        margin-bottom: 20px !important;
+    }
+}
+
+@media (max-width: 1024px){
+    .home-page-body #hero-banner{
+        padding: 0 !important;
+    }
+    #hero-banner{
+        padding:45px 0 !important;
+    }
+    .hero-background-positinate{
+        padding-left: 0;
+        padding-right: 0;
+    }
+    .hero-banner-content, .hero-banner-content p{
+        font-size: 16px;
+        line-height: 25px;
+        margin-bottom: 20px;
+    }
+    .heading-1 {
+        font-size: 28px !important;
+        line-height: 40px !important;
+    }
+    .image-as-background{
+        padding: 100px 0 !important;
+    }
+    .surgeons-hcps .btn-about {
+        margin-top: 20px !important;
+    }
+    .surgeons-hcps {
+        margin-bottom: 0;
+    }
+}
+@media (max-width: 767px){
+    #hero-banner-video{
+        height: 550px;
+        object-fit: cover;
+    }
+    .hero-banner-content br, .hero-banner-content p br,
+    .heading-1 br{
+        display: none;
+    }
+    .heading-1 {
+        font-size: 22px !important;
+        line-height: 30px !important;
+    }
+    .image-as-background {
+        padding: 45px 0 !important;
+    }
+    .home-page-banner.image-as-background {
+        padding: 75px 0 45px !important;
+    }
+}
+

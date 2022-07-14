@@ -1,0 +1,217 @@
+.product_postcards_block {
+    max-width: 1360px;
+    margin: 0 auto;
+}
+.product_postcards {
+    padding-bottom: 116px;
+}
+.product_postcards_item {
+    padding: 25px 15px 25px 40px;
+    border-bottom: 1px solid #54565A;
+}
+.product_postcards_item:last-child{
+	border-bottom: 0 !important;
+	padding-bottom: 0 !important;
+}
+.product_postcards_item:first-child{
+	padding-top: 0 !important;
+}
+.postcard-heading {
+    margin-bottom: 0;
+}
+.postcard-heading a {
+    font-size: 32px;
+    line-height: 42px;
+    margin-bottom: 14px;
+    color: #202020;
+    font-weight: 700;
+    display: block;
+}
+.postcard-heading a:hover {
+	color: #9B001F !important;
+}
+.view-product{
+	min-width: 205px;
+	margin-top: 32px;
+}
+.postcards-content p{
+	margin-bottom: 0 !important;
+}
+.postcards-content-item-flex {
+    display: flex;
+    flex-wrap: wrap;
+}
+.postcards-content-item-flex {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.postcards-left-side-content{
+	max-width: 494px;
+	flex: 494px;
+}
+.postcards-right-side-content {
+    max-width: calc(100% - 494px);
+    flex: calc(100% - 494px);
+    padding-left: 119px;
+}
+.main-card-image {
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+    border-radius: 10px;
+   	transition: all 0.8s ease-in-out;
+    cursor: pointer;
+}
+.preserve-3d{
+	/*transform-style: preserve-3d;*/
+   	transition: all 0.4s ease-in-out;
+}
+/*.preserve-3d:hover .thefront{
+    transform:rotateY(180deg);
+}*/
+.thefront {
+ /*   backface-visibility: hidden;*/
+   	transition: all 0.4s ease-in-out;
+}
+.product_postcards_item:hover .preserve-3d .thefront{
+    visibility: hidden;
+    opacity: 0;    
+}
+
+.product_postcards_item:hover .preserve-3d .theback{
+    visibility: visible;
+    opacity: 1;
+}
+.product_postcards_item:hover .postcards-content-item-flex .postcards-right-side-content .btn-darkred{
+	background-color: #fff !important;
+    color: #9B001F !important;
+}
+.theback{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+   	transition: all 0.4s ease-in-out;
+    visibility: hidden;
+    opacity: 0;    
+    /*backface-visibility: hidden;*/
+}
+/*.theback{
+    transform: rotateY(180deg);
+}*/
+.product-main-image img {
+    width: 100%;
+}
+
+/*Procedural soutions*/
+.postcards-procedural-page {
+    padding-bottom: 130px;
+    padding-top: 168px;
+}
+.postcards-procedural-page .product_postcards_block {
+    max-width: 1375px;
+    margin: 0 auto;
+}
+.postcards-procedural-page img {
+    border-radius: 20px;
+}
+.postcards-procedural-page .product_postcards_item {
+    padding-top: 97.7px;
+    padding-bottom: 105.4px;
+    padding-left: 0;
+    padding-right: 0;
+}
+.postcards-procedural-page .postcards-right-side-content {
+    max-width: calc(100% - 653px);
+    flex: calc(100% - 653px);
+    padding-left: 71.9px;
+}
+.postcards-procedural-page .postcards-left-side-content {
+    max-width: 653px;
+    flex: 653px;
+}
+
+/*Media Query*/
+@media (min-width: 1025px) and (max-width: 1380px){
+	.postcards-right-side-content{
+		padding-left: 30px !important;
+	}
+	.postcard-heading a{
+		font-size:25px !important;
+		line-height: 30px !important;
+	}
+	.postcards-content p {
+	    font-size: 16px;
+	}
+	.postcards-left-side-content,
+	.postcards-procedural-page .postcards-left-side-content{
+		max-width: 400px; 
+		flex: 400px;
+	}
+	.postcards-right-side-content,
+	.postcards-procedural-page .postcards-right-side-content {
+		max-width: calc(100% - 400px);
+		flex: calc(100% - 400px);
+	}
+	.postcards-procedural-page .product_postcards_item {
+	    padding: 35px 0 !important;
+	}
+	.view-product{
+		margin-top: 20px !important;
+	}
+}
+@media (max-width: 1024px){
+	.postcard-heading a{
+		font-size: 22px !important;
+    	line-height: 30px !important;
+	}
+	.postcards-left-side-content,
+	.postcards-procedural-page .postcards-left-side-content{
+		max-width: 250px; 
+		flex: 250px;
+	}
+	.postcards-right-side-content,
+	.postcards-procedural-page .postcards-right-side-content {
+		max-width: calc(100% - 250px);
+		flex: calc(100% - 250px);
+    	padding-left: 30px;
+	}
+	.view-product{
+		margin-top: 15px !important;
+	}
+	.postcards-procedural-page .product_postcards_item { 
+	    padding: 40px 0 !important;
+	}
+}
+
+@media (max-width: 767px){
+	.postcards-content-item-flex > *,
+	.postcards-procedural-page .postcards-content-item-flex > *{
+		max-width: 100% !important;
+		flex: 100% !important;
+		padding-left: 0 !important;
+	}
+	.main-card-image img {
+	    max-width: 250px;
+	}
+	.postcard-heading {
+	    margin-bottom: 5px;
+	}
+	.product_postcards_item {
+	    padding: 25px 0 !important;
+	}
+	.postcards-content-item-flex{
+		text-align: center;
+	}
+	
+}
+@media (max-width: 575px){
+	.postcard-heading a{
+		font-size: 18px !important;
+    	line-height: 26px !important;
+	}
+
+}

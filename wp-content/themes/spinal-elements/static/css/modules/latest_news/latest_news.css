@@ -1,0 +1,120 @@
+.latest_news {
+    padding-top: 97px;
+    background: linear-gradient(180deg, rgb(255 255 255 / 87%), rgb(239 239 239 / 87%));
+    padding-bottom: 94.6px;
+}
+.latest-news-block {
+    padding-top: 20px;
+}
+.latest-news-row {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 33px;
+    margin-bottom: 92.4px;
+}
+.latest-news-row  .latest-item-inner {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: space-between;
+    background: #fff;
+    border-radius: 20px;
+    box-shadow: 0px 0px 35px rgb(0 0 0 / 10%);
+    padding: 55px 20px 25px 44px;
+    position: relative;
+}
+.viewbtn {
+    min-width: 102px;
+}
+.blog-title a {
+    font-size: 22px;
+    line-height: 28px;
+    font-weight: 700;
+    color: #202020;
+}
+.blog-title a:hover{
+    color: #9B001F !important;
+}
+.blog-title {
+    margin-bottom: 45px;
+    max-width: 320px;
+}
+.blog-content-bottom {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.morecomapny {
+    min-width: 251px;
+}
+.date-light {
+    color: #54565A;
+}
+
+/*Media query*/
+@media (min-width:768px) and (max-width: 1380px){
+    .btn-morenews {
+        margin-bottom: 30px;
+    }
+    .date-light{
+        font-size: 14px;
+    }
+    .latest-news-row{
+        margin-bottom: 40px;
+        gap: 20px;
+    }
+}
+@media (min-width:1025px) and (max-width: 1380px){
+    .blog-title a{
+        font-size: 20px !important;
+        line-height: 30px !important;
+    }
+    .latest-news-row .latest-item-inner{
+        padding: 25px !important;
+    }
+}
+@media (max-width: 1024px){
+    .blog-title a{
+        font-size: 18px;
+        line-height: 24px;
+    }
+    .latest-news-row .latest-item-inner{
+        padding: 20px;
+    }
+    .latest_news .heading2{
+        margin-bottom: 10px !important;
+    }
+    .viewbtn {
+        min-width: 80px;
+    }
+}
+@media (max-width: 767px){
+    .latest-news-row{
+        margin-bottom: 30px;
+        grid-template-columns: 1fr 1fr;  
+        gap: 20px;  
+    }
+    .latest_news .heading2{
+        padding-bottom: 0 !important;
+        margin-bottom: 0 !important;
+    }
+    .btn-morenews {
+        margin-bottom: 20px;
+    }
+    .date-light{
+        font-size: 16px !important;
+    }
+    .blog-title{
+        max-width: 100%;
+        margin-bottom: 35px !important;
+    }
+}
+@media (max-width: 575px){
+    .blog-title a {
+        font-size: 17px;
+        line-height: 24px;
+    }
+    .latest-news-row{
+        grid-template-columns: 1fr;  
+    }
+}

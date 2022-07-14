@@ -1,0 +1,172 @@
+.cta_subscribe .container {
+    max-width: 1360px !important;
+}
+.cta_subscribe {
+    padding-top: 110px;
+    padding-bottom: 128px;
+}
+.CTA-subscribe-form-inner h2 {
+    font-size: 42px;
+    line-height: 58px;
+    max-width: 614px;
+}
+.cta_subscribe .CTA-subscribe-form-inner {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.CTA-subscribe-details {
+    max-width: 665px;
+    flex: 665px;
+}
+.form-now-cta {
+    max-width: calc(100% - 665px);
+    flex: calc(100% - 665px);
+    padding-left: 30px;
+}
+.form-now-cta form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+/*.form-now-cta form .gform_footer {
+    margin: 0 !important;
+    padding: 0 !important;
+    position: absolute;
+    right: 0;
+    top: 0;
+}*/
+.form-now-cta form .gform_body {
+    width: 100%;
+}
+.form-now-cta form .gform_footer input[type="submit"] {
+    text-transform: uppercase;
+    font-size: 16px !important;
+    line-height: 24px !important;
+    letter-spacing: 0.20px;
+    font-weight: 700 !important;
+    background-color: #9B001F !important;
+    border: 2px solid #9B001F !important;
+    border-radius: 30px !important;
+    color: #fff !important;
+    display: inline-block;
+    padding: 8.5px 29.5px 8.5px 2px;
+    min-width: 168px;
+    margin-bottom: 0 !important;
+    transition: all 0.3s ease-in-out;
+    margin: 0 !important;
+    position: absolute;
+    right: 0;
+    top: 0;
+    background: url(../../../images/Path.png) no-repeat;
+    background-position: 83% center;
+}
+.form-now-cta form .gform_footer input[type="submit"]:hover{
+    background-color: #000 !important;
+    color: #fff !important;
+    border: 2px solid #000 !important;
+}
+.form-now-cta form .gform_body .gfield input[type="email"] {
+    height: 45px;
+    border: 0;
+    border-radius: 50px;
+    padding: 0 175px 0px 37px!important;
+    font-size: 16px !important;
+    color: #3E3E3E !important;
+}
+.form-now-cta form .gform_body .gfield input[type="email"]::placeholder{
+    color: #3E3E3E !important;
+    text-transform: uppercase;
+}
+.form-now-cta input[type="checkbox"] {
+    border: 0 !important;
+    appearance: none;
+    width: 18px;
+    height: 18px;
+    background: #fff;
+    border-radius: 2px;
+    cursor: pointer;
+    position: relative;
+    margin-right: 17px;
+}
+.form-now-cta input[type="checkbox"]:checked:before {
+    position: absolute;
+    content: '';
+    width: 8px;
+    height: 12px;
+    left: 5px;
+    top: 2px;
+    border: 3px solid #9b001f;
+    transform: rotate(45deg);
+    border-top: 0;
+    border-left: 0;
+}
+.form-now-cta .gfield_checkbox label, .form-now-cta .gfield_checkbox label a {
+    color: #fff;
+    font-size: 16px !important;
+    line-height: 24px !important;
+}
+.form-now-cta .gfield_checkbox .gchoice {
+    display: flex;
+    align-items: center;
+}
+.form-now-cta .gform_wrapper.gravity-theme .gform_fields{
+    grid-row-gap: 28px !important;
+}
+.form-now-cta .gfield_checkbox label a {
+    border-bottom: 1px solid #F7F9F7;
+    padding-bottom: 6.3px;
+}
+
+
+/*Media Query*/
+@media (max-width: 991px){
+    .CTA-subscribe-form-inner > *:first-child{
+        max-width: 100% !important;
+        flex: 100% !important;
+        padding: 0 !important;
+    }  
+    .CTA-subscribe-form-inner > *:last-child{
+        max-width: 600px !important;
+        flex: 600px !important;
+        padding: 0 !important;
+    }  
+    /*.form-now-cta form .gform_footer input.gform_button{
+        padding: 7.5px !important;
+        font-size: 14px !important;
+        min-width: 130px !important;
+    }*/
+    .form-now-cta form .gform_footer input.gform_button {
+        padding: 7.5px 7.5px 7.5px 17px !important;
+        font-size: 14px !important;
+        min-width: 150px !important;
+        text-align: left;
+    }
+    .form-now-cta form .gform_body .gfield input[type="email"]{
+        padding: 0 145px 0px 15px!important;
+        height: 43px !important;
+    }
+    .form-now-cta .gform_wrapper.gravity-theme .gform_fields {
+        grid-row-gap: 16px !important;
+    }
+    .CTA-subscribe-form-inner h2{
+        font-size: 35px !important;      
+        line-height: 40px !important   
+    }
+}
+@media (max-width: 767px){
+    .form-now-cta form .gform_body .gfield input[type="email"]{
+        font-size: 14px !important;
+    }
+    .CTA-subscribe-form-inner h2{
+        font-size: 25px !important;      
+        line-height: 28px !important   
+    }
+}
+@media (max-width: 575px){
+    .form-now-cta .gfield_checkbox label, 
+    .form-now-cta .gfield_checkbox label a{
+        font-size: 14px !important;
+    }   
+}

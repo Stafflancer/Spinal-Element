@@ -1,0 +1,200 @@
+.featured_distributor_content {
+    padding-top: 50px;
+}
+.featured_distributor_content .heading2 {
+    line-height: 42px;
+    padding-bottom: 0 !important;
+    margin-bottom: 8.8px !important;
+}
+.featured-distributor-content-item-flex {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    border-radius: 20px;
+    box-shadow: 0px 0px 10px rgb(0 0 0 / 10%);
+    overflow: hidden;
+}
+.featured-distributor-left-side-content {
+    max-width: 809px;
+    flex: 809px;
+}
+.featured-distributor-right-side-content {
+    max-width: calc(100% - 809px);
+    flex: calc(100% - 809px);
+    padding: 58px 67.5px 51.8px 70px;
+}
+.featured-distributor-left-side-content .slide-image img {
+    width: 100%;
+    border-radius: 20px 0 0 20px;
+    overflow: hidden;
+}
+.featured-distributor-content-imgbox {
+    position: absolute;
+    left: 0;
+    top: 0;
+    max-width: 809px;
+    padding: 200px 0;
+    bottom: 0;
+    right: 0;
+    border-radius: 20px 0 0 20px;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+.featured-distributor-content-item {
+    position: relative;
+}
+/* the slides */
+.featured-distributor-slider .slick-slide {
+    margin: 15px 0 32px 0;
+    border-radius: 20px;
+}
+.heading-featured {
+    display: block;
+    font-size: 18px;
+    line-height: 24px;
+    text-transform: uppercase;
+    margin-bottom: 39px;
+}
+.categoryname {
+    line-height: 24px;
+    display: block;
+    color: #9b001f;
+    margin-bottom: 12px;
+}
+.featured-distributor-right-side-content .content {
+    line-height: 28px;
+    -webkit-line-clamp: 2;
+    display: -webkit-box;
+    overflow: hidden;
+    -webkit-box-orient: vertical;
+}
+.featured-distributor-right-side-heading {
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 42px;
+    margin-bottom: 10px;
+}
+.featured-distributor-button {
+    text-align: right;
+    margin-top: 64px;
+}
+.featured-distributor-button .viewbtn {
+    min-width: 102px;
+}
+.featured-distributor-button .download-more {
+    padding: 0;
+    text-transform: uppercase;
+    font-weight: 700;
+    letter-spacing: 0.20px;
+    font-size: 16px;
+    line-height: 24px;
+    color: #54565A;
+    border-bottom: 1px solid #54565A;
+    margin-right: 5px;
+    border-radius: 0;
+}
+.featured-distributor-slider {
+    display: flex !important;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.featured-distributor-slider .slick-list {
+    order: 1;
+}
+.featured-distributor-slider .slick-prev {
+    order: 2;
+    margin-right: 16px;
+}
+.featured-distributor-slider .slick-next {
+    order: 3;
+}
+.featured-distributor-slider .slick-arrow {
+    position: unset !important;
+    border: 1px solid #54565A;
+}
+
+/*Media Query*/
+@media (min-width: 992px) and (max-width: 1380px){
+    .featured-distributor-right-side-content{
+        padding: 40px !important;
+    }
+    .featured-distributor-right-side-heading{
+        font-size: 27px;
+        line-height: 34px;
+    }
+    .featured-distributor-content-item-flex > *{
+        max-width: 50%;
+        flex: 50%;
+    }
+    .featured-distributor-content-imgbox{
+        max-width: 50% !important;
+    }
+}
+
+@media (max-width: 991px){
+    .featured-distributor-content-item-flex > *{
+        max-width: 100%;
+        flex: 100%;
+    }
+    .featured-distributor-right-side-content{
+        padding: 30px !important;
+    }
+    .featured-distributor-right-side-heading{
+        font-size: 25px !important;
+        line-height: 35px !important;
+    }
+    .featured-distributor-button{
+        margin-top: 30px !important;
+    }
+    .featured-distributor-slider .slick-list{
+        margin-bottom: 10px !important;
+    }
+    .heading-featured{
+        margin-bottom: 15px !important;
+    }
+    .featured-distributor-content-imgbox {
+        position: unset !important;
+        border-radius: 20px 20px 0 0;
+        padding: 0 !important;
+        height: 350px !important;
+        max-width: 100% !important;
+    }
+    .featured-distributor-content-item-flex{
+        border-radius: 0px 0px 20px 20px !important;
+    }
+}
+
+@media (max-width: 767px){
+    .featured-distributor-right-side-heading{
+        font-size: 20px !important;
+        line-height: 26px !important;
+    }
+    .featured-distributor-right-side-content .content{
+        font-size: 15px !important;
+        line-height: 24px !important;
+    }
+    .featured-distributor-content-imgbox{
+        height: 250px !important;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,110 @@
+.Dark {
+    color: #202020;
+}
+.carousel_gallery_with_buttons {
+    padding: 166px 0 81.6px;
+}
+.carousel_gallery_with_buttons .content strong {
+    color: #9b001f;
+}
+.carousel_gallery_with_buttons_inner .content {
+    font-size: 18px;
+    line-height: 26px;
+}
+.carousel_gallery_with_buttons_inner .content p{
+    margin-bottom: 0;
+}
+.gallery_button_carousel {
+    margin-top: 52.6px;
+}
+.gallery-button {
+    margin-top: 37.8px;
+    margin-bottom: 45px;
+}
+.gallery-button .btn-darkred {
+    padding: 8.5px 30px;
+}
+.slick-dots {
+    position: absolute;
+    bottom: 0px;
+    display: block;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    text-align: center;
+}
+.slick-dots li {
+    position: relative;
+    display: inline-block;
+    margin: 0 3px;
+    cursor: pointer;
+    opacity: 0.5;
+}
+.slick-dots li button {
+    font-size: 0;
+    line-height: 0;
+    display: block;
+    width: 11.2px;
+    height: 11.2px;
+    cursor: pointer;
+    color: transparent;
+    border: 0;
+    outline: none;
+    background: transparent;
+}
+.slick-dots li button:before {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 11.2px;
+    height: 11.2px;
+    border-radius: 100%;
+    content: '•';
+    text-align: center;
+    background: #C9CBCF;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+.slick-active button:before {
+    background: #2B3140 !important;
+}
+.gallery_button_carousel .gallery-image img {
+    margin: auto;
+    border-radius: 20px;
+}
+/*Media Query*/
+@media (min-width: 1025px) and (max-width: 1380px){
+    .gallery_button_carousel {
+        margin-top: 25px !important;
+    }
+}
+@media (max-width: 767px){
+    .carousel_gallery_with_buttons {
+        padding: 30px 0 15px;
+    }
+    .carousel_gallery_with_buttons br{
+        display: none;
+    }
+    .gallery_button_carousel {
+        margin-top: 20px !important;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

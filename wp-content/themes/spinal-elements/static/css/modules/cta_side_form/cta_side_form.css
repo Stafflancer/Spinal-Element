@@ -1,0 +1,153 @@
+.cta_side_form {
+    padding: 134px 0 140px;
+    position: relative;
+}
+.add-pattern:before {
+    position: absolute;
+    background: url(https://dev-spinal-elements.pantheonsite.io/wp-content/uploads/2022/05/Group-79497.png);
+    left: -16%;
+    content: '';
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: contain;   
+}
+.heading-red-block {
+    font-size: 52px;
+    line-height: 62px;
+    margin-bottom: 13.5px;
+}
+.cta_side_form_main_block {
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+}
+.cta_side_form_main_block .content, 
+.cta_side_form_main_block .content p {
+    font-size: 22px;
+    line-height: 34px;
+}
+.right-side-form {
+    max-width: 737px;
+    flex: 737px;
+}
+.cta_side_form_row {
+    max-width: calc(100% - 737px);
+    flex: calc(100% - 737px);
+    padding-right: 50px;
+}
+.right-side-form input::placeholder {
+    color: #fff;
+}
+.right-side-form .gform-body input, 
+.right-side-form .gform-body select {
+    background: transparent;
+    border-radius: 0;
+    color: #fff;
+    font-size: 17px !important;
+    line-height: 21px;
+    border: 0 !important;
+    border-bottom: 1px solid #fff !important;
+    padding: 10.5px 0 !important;
+}
+.right-side-form .gform-body select option {
+    color: #000;
+}
+.right-side-form .gform-body .gfield {
+    margin-bottom: 10px !important;
+}
+.right-side-form .gform_button {
+    text-transform: capitalize;
+    font-size: 16px !important;
+    line-height: 24px !important;
+    letter-spacing: 0.20px;
+    font-weight: 700 !important;
+    background-color: #ffffff !important;
+    border: 2px solid #ffffff !important;
+    border-radius: 30px !important;
+    color: #9b001f !important;
+    display: inline-block;
+    min-width: 249px;
+    margin-top: 20px;
+    padding: 9.4px 0 8.4px !important;
+    transition: all 0.3s ease-in-out;
+}
+.right-side-form .gform_button:hover {
+    background: transparent !important;
+    color: #fff !important;
+}
+.right-side-form .gform_footer {
+    justify-content: flex-end;
+}
+.right-side-form .gform-body select {
+    appearance: none;
+    background: url(https://dev-spinal-elements.pantheonsite.io/wp-content/uploads/2022/05/arrow-down.png);
+    background-repeat: no-repeat;
+    background-position: right center;
+}
+.default-bg-cta {
+    background: #9b001f;
+}
+
+/*Media Query*/
+@media (min-width: 768px) and (max-width: 1380px){
+    .cta_side_form_main_block > *{
+        max-width: 50%;
+        flex: 50%;
+    }
+    .cta_side_form_main_block > *:first-child {
+        padding-right: 30px;
+    }
+    .cta_side_form_main_block .content p br {
+        display: none;
+    }
+    .cta_side_form {
+        padding: 50px 0;
+    }
+}
+@media (min-width: 1025px) and (max-width: 1380px){
+    .heading-red-block {
+        font-size: 30px;
+        line-height: 40px;
+        margin-bottom: 13.5px;
+    }
+}
+@media (max-width: 1024px){
+    .right-side-form .gform-body select{
+        background-position: right center;
+    }
+    .heading-red-block {
+        font-size: 25px;
+        line-height: 37px;
+        margin-bottom: 13.5px;
+    }
+}
+
+@media (max-width: 767px){
+    .cta_side_form_main_block > *{
+        max-width: 100%;
+        flex: 100%;
+    }
+    .cta_side_form_main_block > *:first-child {
+        padding-right: 0;
+    }
+    .right-side-form .gform_footer {
+        justify-content: center;
+    }
+    .right-side-form .gform-body .gfield {
+        margin-bottom: 0px !important;
+    }
+    .right-side-form .gform-body input, .right-side-form .gform-body select{
+        font-size: 15px !important;
+        line-height: 21px !important;
+    }
+}
+
+@media (max-width: 575px){
+    .heading-red-block {
+        font-size: 22px !important;
+        line-height: 30px !important;
+    }
+}

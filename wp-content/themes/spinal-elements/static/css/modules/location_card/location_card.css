@@ -1,0 +1,107 @@
+.location_card {
+    padding-top: 111px;
+    padding-bottom: 130px;
+}
+.location_card_inner {
+    max-width: 1365px;
+    margin: 0 auto;
+    border-radius: 20px;
+    box-shadow: 0px 0px 10px rgb(0 0 0 / 20%);
+    padding: 94px 111px 94px 139px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.text-color-red {
+    color: #9B001F;
+    font-weight: 700;
+}
+.location_card_address {
+    max-width: calc(100% - 685px);
+    flex: calc(100% - 685px);
+}
+.location_card_img {
+    max-width: 685px;
+    flex: 685px;
+}
+.location_card_block h2 {
+    font-size: 28px;
+    line-height: 35px;
+    margin-bottom: 18px;
+}
+.location_title, .address_line_1, .address_line_2 {
+    font-size: 22px;
+    margin: 0;
+    line-height: 32px;
+}
+.phones-list{
+    margin-top: 40px;
+}
+.phones-list a, .phones-list span {
+    font-size: 22px;
+    line-height: 32px;
+}
+.location_card-block-img img {
+    height: 446px;
+    object-fit: cover;
+    border-radius: 20px;
+}
+
+/*Media Query*/
+@media (min-width: 320px) and (max-width: 1380px){
+    .location_card_inner{
+        padding: 40px !important;
+    }
+    .location_title, .address_line_1, .address_line_2, .phones-list a, .phones-list span {
+        font-size: 18px;
+        line-height: 26px;
+    } 
+}
+
+/*Leptop screens*/
+@media (min-width: 1025px) and (max-width: 1380px){
+    .location_card_block h2{
+        font-size: 24px !important;
+    }
+}
+@media (max-width: 1024px){
+    .location_card_inner > *{
+        max-width: 100% !important;
+        flex: 100% !important;
+    }
+    .location_card-block-img img {
+        width: 100%;
+        height: auto;
+    }
+    .location_card_block {
+        padding-bottom: 30px;
+    }
+    .location_card_block h2 {
+        font-size: 20px;
+        margin-bottom: 10px;
+    }
+    
+    .gform_footer{
+        margin-top: 25px !important;
+    }
+}
+
+@media (max-width: 767px){
+    .location_card_inner{
+        padding: 20px !important;
+    }
+    .location_title, 
+    .address_line_1, 
+    .address_line_2, 
+    .phones-list a, 
+    .phones-list span {
+        font-size: 16px !important;
+        line-height: 23px !important;
+    }
+    .phones-list {
+        margin-top: 20px;
+    }
+    .location_card_block {
+        padding-bottom: 20px;
+    }
+}

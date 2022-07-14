@@ -1,0 +1,99 @@
+.product_cards {
+    padding-top: 137.4px;
+    padding-bottom: 164.2px;
+}
+.product_cards_block {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 33px;
+    row-gap: 91px;
+}
+.cards-items {
+    text-align: center;
+    border-radius: 25px;
+    box-shadow: 0px 0px 10px rgb(0 0 0 / 10%);
+    padding: 59px 38px 59px 48px;
+    border: 2px solid transparent;
+    transition: all 0.4s ease-in-out;
+    background-color: #FFFFFF;
+}
+.cards-items a {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+}
+.cards-content{
+    color: #202020;
+}
+.cards-items:hover .cards-details-heading a {
+    color: #9b001f;
+}
+.cards-items:hover {
+    border: 2px solid #9B001F;
+}
+.cards-items:hover .card-leanmore .learn-more {
+    background-color: #fff !important;
+    color: #9B001F !important;
+}
+.card-leanmore .learn-more {
+    min-width: 176px;
+    margin-bottom: 10px;
+}
+.cards-details-heading {
+    margin-bottom: 0;
+}
+.cards-details-heading {
+    font-size: 22px;
+    line-height: 28px;
+    font-weight: 700;
+    margin-bottom: 8.4px;
+    display: block;
+    color: #202020;
+}
+.cards-image {
+    margin-top: 31.5px;
+    margin-bottom: 30.6px;
+}
+
+
+
+
+/*Media Query*/
+@media (min-width: 992px) and (max-width: 1380px){
+    .cards-items{
+        padding: 30px !important;
+    }
+    .product_cards_block{
+        row-gap: 30px;
+        column-gap: 20px;
+    }
+}
+
+@media (max-width: 1024px){
+    .cards-content{
+        font-size: 16px !important;
+        line-height: 24px !important;
+    }
+}
+@media (max-width: 991px){
+    .cards-items{
+        padding: 25px !important;
+    }
+    .product_cards_block{
+        grid-template-columns: 1fr 1fr;
+        row-gap: 30px;
+        column-gap: 20px;
+    }
+    .cards-details-heading a{
+        margin-bottom: 5px;
+        font-size: 18px !important;
+        line-height: 24px !important;
+    }
+}
+@media (max-width: 575px){
+    .product_cards_block{
+        grid-template-columns: 1fr;
+    }
+}

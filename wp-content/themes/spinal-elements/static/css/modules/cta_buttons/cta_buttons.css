@@ -1,0 +1,71 @@
+.cta_buttons .heading2 {
+    margin-bottom: 25px;
+    max-width: 434px;
+}
+.cta_buttons {
+    padding: 200px 0 174px;
+    background-size: cover;
+    background-position: top center;
+    position: relative;
+}
+.cta_buttons .addunderline:before{
+    margin: 0;
+}
+.cta_block_row {
+    position: relative;
+    max-width: 600px;
+}
+.content-max .cta_block_row{
+    max-width: 685px !important;
+}
+.cta_btn {
+    min-width: 177px;
+}
+.content  p{
+    margin-bottom: 0;
+}
+.cta_block_row .content {
+    margin-bottom: 26.5px;
+}
+
+/*Career*/
+.cta-careers {
+    padding-top: 112px;
+    padding-bottom: 100px;
+}
+.cta-careers .cta_block_row {
+    max-width: 1181px;
+    margin: 0 auto;
+}
+.cta-careers .addunderline:before {
+    margin: 0 auto;
+}
+.cta-careers .heading2 {
+    padding-bottom: 35px;
+    max-width: 100%;
+}
+.cta-careers .heading2{
+    padding-bottom: 35px;
+}
+.cta-careers .cta_btn {
+    min-width: 205px;
+}
+.cta-careers .alignmentcenter {
+    text-align: center;
+}
+
+/**/
+.margin-block {
+    margin-top: 92px;
+}
+
+@media (max-width: 1380px){
+    .margin-block{
+        margin-top: 0 !important;
+    }
+}
+@media (max-width: 1299px){
+    .cta_buttons{
+        padding: 40px 0 !important;
+    }
+}
